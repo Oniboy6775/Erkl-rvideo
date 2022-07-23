@@ -1,0 +1,19 @@
+{
+  "CONTRACT_ADDRESS": "0x194da909cd32c4d896b47ee83de40f469addd15a",
+  "SCAN_LINK": "https://polygonscan.com/address/0x194da909cd32c4d896b47ee83de40f469addd15a",
+  "NETWORK": {
+    "NAME": "Matic",
+    "SYMBOL": "MATIC",
+    "ID": 137
+  },
+  "NFT_NAME": "NFT Minten",
+  "SYMBOL": "MATIC",
+  "MAX_SUPPLY": 5000,
+  "WEI_COST": 8000000000000000000,
+  "DISPLAY_COST": 8,
+  "MAX_MINT": 10,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/",
+  "SHOW_BACKGROUND": true
+}
