@@ -19,7 +19,11 @@ const SocialLinks = () => {
         <img src={DISCORD} alt="" className="img" />
         Discord
       </a>
-      <a href="https://bit.ly/3DrtP4r" target="blank" className="col title">
+      <a
+        href="https://bit.ly/3DrtP4r"
+        target="blank"
+        className="col title youtube"
+      >
         <img src={YOUTUBE} alt="" className="img" />
         Youtube
       </a>
@@ -35,6 +39,7 @@ const Wrapper = styled.section`
   a {
     color: white;
     color: var(--primary-400);
+    font-weight: 900;
   }
 
   display: grid;
@@ -45,8 +50,13 @@ const Wrapper = styled.section`
   place-items: center;
   @media (min-width: 600px) {
     max-width: calc(var(--fixed-width) / 1.5);
-    img {
-      height: 100px;
+
+    .youtube {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 100%;
+      transform: translateY(-6px);
     }
   }
 `;
