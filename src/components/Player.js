@@ -4,7 +4,12 @@ const Player = () => {
   return (
     <Wrapper className="container">
       <h3 className="title">Erklärvideo zu den NFTs</h3>
-      <ReactPlayer url="https://www.youtube.com/watch?v=YJRg4_3RjwY" />
+      <ReactPlayer
+        url="https://vimeo.com/733570994/2071c1f29f"
+        playing={true}
+        controls={true}
+        volume={1}
+      />
     </Wrapper>
   );
 };
